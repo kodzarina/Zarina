@@ -148,7 +148,7 @@ public:
 int main()
 {
 	float a = Sin<-2, 1>::sin();
-	cout << "Metaprogram:      "<< a << endl;
+	cout << "Metaprogram test:      "<< a << endl;
 	float b = sin(atan(log(acos(exp(-0.5)))));
 	cout << "Standard program: "<< b << endl;
 	cout << "Error:             "<<abs(a-b)<<endl;
